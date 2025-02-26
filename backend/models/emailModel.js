@@ -11,6 +11,6 @@ const emailSchema = new mongoose.Schema({
  })
     
    // using the above user schema create emailModel
- const emailModel = mongoose.models.EmaiData || mongoose.model("EmailData" , emailSchema) ; 
+ const emailModel = mongoose.models.EmailData || mongoose.model("EmailData" , emailSchema) ; 
 
  export default emailModel ;

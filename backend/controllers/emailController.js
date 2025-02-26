@@ -21,10 +21,11 @@ export const sendEmail = async (req, res) => {
          subject: `${emailSubject}`,
          text: `${generatedEmailBody},
          
-         **DISCLAIMER : This is a testing email for education purpose! Please DON'T share any personal details if asked! Sender is not responsible for any harm!
+
+         **DISCLAIMER : This is a testing email for educational purpose! Please DON'T share any personal details if asked! Sender is not responsible for any harm!
          
          Project : Full stack Admin-Dashboard
-         Check Project :
+         Check Project : https://fullstack-admin-dashboard-2v9g.onrender.com/
           
          
          ` 
