@@ -8,7 +8,7 @@ const VendorsDetails = () => {
 
   const getVendorDetails = async () => {
     try {
-      const response = await fetch(`https://dummyjson.com/users?&limit=70`);
+      const response = await fetch(`https://dummyjson.com/users?&limit=71`);
       const jsonData = await response.json();
       console.log(jsonData);
       setData(jsonData.users);
